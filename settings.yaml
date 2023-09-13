@@ -1,0 +1,14 @@
+destination_folder: "converted/"
+chunk_size: 500000
+database:
+  host: "123.123.123.123"
+  port: 5432
+  database: "database001"
+  user: "admin"
+  password: "your_password_here"
+export:
+  - schema: "schema1"
+    tables: ["table1", "table2"]
+  - schema: "schema2"
+    tables: ["table_a","table_b"]
+
